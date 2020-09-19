@@ -14,19 +14,19 @@ int main() {
 
     /*  Addition  */
     result = rational1 + rational2;
-    std::cout << result;
+    std::cout << "Addition: " << result << std::endl;
 
     /*  Subtraction */
     result = rational1 - rational2;
-    std::cout << result;
+    std::cout << "Subtraction: " << result << std::endl;
 
     /*  Multiplication */
     result = rational1 * rational2;
-    std::cout << result;
+    std::cout << "Multiplication: " << result << std::endl;
 
     /*  Division */
     result = rational1 / rational2;
-    std::cout << result;
+    std::cout << "Division: " << result << std::endl;
 
     return 0;
 }

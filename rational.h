@@ -24,15 +24,15 @@ public:
         }
         if ((R.numerator == 0) && (R.denominator == 0))
         {
-            std::cout << "Inf" << std::endl;
+            std::cout << "Inf";
             return output;
         }
         else if (R.denominator == 0)
         {
-            std::cout << "NaN" << std::endl;
+            std::cout << "NaN";
             return output;
         }
-        output << R.numerator << "/" << R.denominator << std::endl;
+        output << R.numerator << "/" << R.denominator;
         return output;
     }
 
